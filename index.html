@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ปรีชาคลินิก - คลินิกการพยาบาลและผดุงครรภ์ | บริการตรวจรักษาโรคทั่วไป</title>
+    <meta name="description" content="ปรีชาคลินิกให้บริการตรวจรักษาโรคทั่วไป  ทำแผล ตรวจสุขภาพ โดยพยาบาลผู้เชี่ยวชาญ">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="ปรีชาคลินิก" width="180">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">หน้าแรก</a></li>
+                    <li><a href="#services">บริการ</a></li>
+                    <li><a href="#doctors">ทีมแพทย์</a></li>
+                    <li><a href="#facilities">สถานที่</a></li>
+                    <li><a href="#contact">ติดต่อเรา</a></li>
+                </ul>
+            </nav>
+            <div class="cta-button">
+                <a href="tel:0959262551" class="btn btn-primary">
+                    <i class="fas fa-phone"></i> 095-926-2551
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>ปรีชาคลินิก</h1>
+                <h2>บริการทางการแพทย์ด้วยมาตรฐานและความเอาใจใส่ โดยพยาบาลผู้เชี่ยวชาญ</h2>
+                <p>เปิดให้บริการจันทร์-ศุกร์ 17:00 - 20:00 น.</p>
+                <p>วันเสาร์ 08:00 - 12:00 น.</p>
+                <p>หยุดทุกวันอาทิตย์</p>
+                <div class="hero-buttons">
+                    <a href="#appointment" class="btn btn-large">นัดหมายแพทย์</a>
+                    <a href="#services" class="btn btn-outline">บริการของเรา</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <h2 class="section-title">บริการของเรา</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <h3>ตรวจรักษาโรคทั่วไป</h3>
+                    <ul>
+                        <li>โรคระบบทางเดินหายใจ</li>
+                        <li>โรคระบบทางเดินอาหาร</li>
+                        <li>โรคผิวหนังทั่วไป</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-syringe"></i>
+                    </div>
+                    <h3>บริการหัตถการทั่วไป</h3>
+                    <ul>
+                        <li>ฉีดยา ทำแผล</li>
+                        <li>เปลี่ยนสายสวนปัสสาวะ
+                          เปลี่ยนสายยางให้อาหาร</li>
+                        <li>คัดกรองเบาหวาน  ความดันโลหิตสูง</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-syringe"></i>
+                    </div>
+                    <h3>บริการวางแผนครอบครัว</h3>
+                    <ul>
+                        <li>ตรวจการตั้งครรภ์</li>
+                        <li>คุมกำเนิด</li>
+                        <li>ถุงยางอนามัย</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="appointment section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">นัดหมายแพทย์</h2>
+            <form class="appointment-form">
+                <div class="form-group">
+                    <input type="text" placeholder="ชื่อ-สกุล" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="เบอร์โทรศัพท์" required>
+                </div>
+                <div class="form-group">
+                    <select required>
+                        <option value="">เลือกบริการ</option>
+                        <option value="general">ตรวจโรคทั่วไป</option>
+                        <option value="vaccine">หัตถการทั่วไป</option>
+                        <option value="health-check">การวางแผนครอบครัว</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="date" required>
+                </div>
+                <button type="submit" class="btn btn-primary">ส่งคำนัดหมาย</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>ปรีชาคลินิก</h3>
+                    <p>ให้บริการทางการแพทย์ด้วยความเอาใจใส่และมาตรฐานสูง โดยพยาบาลผู้เชี่ยวชาญ</p>
+                </div>
+                <div class="footer-col">
+                    <h3>ติดต่อเรา</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 85/5 ม.5 ต.กุดนกเปล้า อ.เมือง จ.สระบุรี</p>
+                    <p><i class="fas fa-phone"></i> 095-926-2551</p>
+                    <p><i class="fas fa-envelope"></i> preecha.tissalee@gmail.com</p>
+                </div>
+                <div class="footer-col">
+                    <p>เปิดให้บริการจันทร์-ศุกร์ 17:00 - 20:00 น.</p>
+                    <p>วันเสาร์ 08:00 - 12:00 น.</p>
+                    <p>หยุดทุกวันอาทิตย์</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 ปรีชาคลินิก. สงวนลิขสิทธิ์ทุกประการ.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html><!-- เพิ่มใน index.html -->
+<section id="doctors" class="doctors section-padding">
+  <div class="container">
+    <h2 class="section-title">ทีมแพทย์ของเรา</h2>
+    <div class="doctors-grid">
+      <div class="doctor-card">
+        <img src="images/doctor1.jpg" alt="ปรีชา ทิศลี">
+        <h3>ปรีชา ทิศลี</h3>
+        <p class="specialty">พยาบาลเวชปฏิบัติทั่วไป  การรักษาเบื้องต้น</p>
+        <p class="education">พยาบาลศาสตร์บัณฑิต มหาวิทยาลัยมหิดล</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <!-- เพิ่มแพทย์คนอื่นๆ -->
+    </div>
+  </div>
+</section><section id="blog" class="blog section-padding bg-light">
+    <div class="container">
+      <h2 class="section-title">บทความสุขภาพ</h2>
+      <div class="blog-grid">
+        <article class="blog-post">
+          <img src="images/blog1.jpg" alt="วิธีป้องกันไข้หวัดใหญ่">
+          <div class="blog-content">
+            <h3><a href="blog/ป้องกันไข้หวัดใหญ่.html">วิธีป้องกันไข้หวัดใหญ่ในฤดูฝน</a></h3>
+            <p class="meta">โพสต์เมื่อ 15 มิถุนายน 2566</p>
+            <p class="excerpt">การป้องกันไข้หวัดใหญ่สามารถทำได้โดยการฉีดวัคซีนและดูแลสุขภาพพื้นฐาน...</p>
+            <a href="blog/ป้องกันไข้หวัดใหญ่.html" class="read-more">อ่านต่อ</a>
+          </div>
+        </article>
+        <!-- เพิ่มบทความอื่นๆ -->
+      </div>
+      <div class="blog-cta">
+        <a href="blog.html" class="btn btn-primary">ดูบทความทั้งหมด</a>
+      </div>
+    </div>
+  </section><section id="location" class="location section-padding">
+    <div class="container">
+      <h2 class="section-title">สถานที่ตั้งคลินิก</h2>
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.7859552542377!2d100.96070437377223!3d14.49697348597722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311de9b227a4cfcd%3A0xe5535185144d1560!2z4Lib4Lij4Li14LiK4Liy4LiE4Lil4Li04LiZ4Li04LiB4LiB4Liy4Lij4Lie4Lii4Liy4Lia4Liy4Lil4LmB4Lil4Liw4Lic4LiU4Li44LiH4LiE4Lij4Lij4Lig4LmM!5e0!3m2!1sth!2sth!4v1743872726082!5m2!1sth!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></src=>" 
+          width="100%" 
+          height="450" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+      <div class="location-info">
+        <div class="info-card">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>ที่อยู่</h3>
+          <p>  85/5 ม.5 ต.กุดนกเปล้า อ.เมือง จ.สระบุรี 18000<br>
+            ตรงข้าม บ้านปรีชาเนอร์สซิ่งโฮม<br>
+            โทรศัพท์: <a href="tel:0959262551">095-926-2551</a></p>
+        </div>
+        <div class="info-card">
+
+        </div>
+      </div>
+    </div>
+  </section><!-- ในส่วน head ของ index.html -->
+  <!-- Meta Tags พื้นฐาน -->
+  <meta name="description" content="ปรีชาคลินิก - คลินิกเวชกรรมทั่วไปในกรุงเทพฯ ให้บริการตรวจรักษาโรคพื้นฐาน ฉีดวัคซีน ตรวจสุขภาพ โดยทีมแพทย์ผู้เชี่ยวชาญ">
+  <meta name="keywords" content="คลินิกกรุงเทพ, ตรวจโรคทั่วไป, ฉีดวัคซีน, ตรวจสุขภาพ, แพทย์ทั่วไป">
+  <meta name="author" content="ปรีชาคลินิก">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.prechaclinic.com/">
+  <meta property="og:title" content="ปรีชาคลินิก - คลินิกเวชกรรมทั่วไป | บริการตรวจรักษาโรคพื้นฐาน">
+  <meta property="og:description" content="ปรีชาคลินิกให้บริการตรวจรักษาโรคทั่วไป ฉีดวัคซีน ตรวจสุขภาพ โดยแพทย์ผู้เชี่ยวชาญ">
+  <meta property="og:image" content="https://www.prechaclinic.com/images/og-image.jpg">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.prechaclinic.com/">
+  <meta property="twitter:title" content="ปรีชาคลินิก - คลินิกเวชกรรมทั่วไป | บริการตรวจรักษาโรคพื้นฐาน">
+  <meta property="twitter:description" content="ปรีชาคลินิกให้บริการตรวจรักษาโรคทั่วไป ฉีดวัคซีน ตรวจสุขภาพ โดยแพทย์ผู้เชี่ยวชาญ">
+  <meta property="twitter:image" content="https://www.prechaclinic.com/images/og-image.jpg">
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalClinic",
+    "name": "ปรีชาคลินิก",
+    "description": "คลินิกเวชกรรมทั่วไปให้บริการตรวจรักษาโรคพื้นฐาน ฉีดวัคซีน และตรวจสุขภาพ",
+    "url": "https://www.prechaclinic.com",
+    "logo": "https://www.prechaclinic.com/images/logo.png",
+    "telephone": "095-926-2551",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "85/5 ม.5 ต.กุดนกเปล้า",
+      "addressLocality": "อ.เมือง",
+      "addressRegion": "จ.สระบุรี ",
+      "postalCode": "18000",
+      "addressCountry": "TH"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+      ],
+      "opens": "17:00",
+      "closes": "20:00"
+      "Saturday",
+      "opens": "17:00",
+      "closes": "20:00"
+    },
+        "Sunday"
+        "closes": " all day"
+    "priceRange": "$$",
+    "image": "https://www.prechaclinic.com/images/clinic-exterior.jpg"
+  }
+  </script><picture>
+    <source srcset="images/hero-bg.webp" type="image/webp">
+    <source srcset="images/hero-bg.jpg" type="image/jpeg"> 
+    <img src="images/hero-bg.jpg" alt="ปรีชาคลินิก">
+  </picture><img src="images/doctor1.jpg" alt="ปรีชา ทิศลี" loading="lazy">
